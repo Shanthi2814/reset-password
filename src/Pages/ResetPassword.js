@@ -14,7 +14,7 @@ function ResetPassword() {
   const verifyUrl = async () => {
     try {
       await axios.get(
-        `https://password-reset-9tmp.onrender.com/api/password-reset/${id}/${token}`
+        `/api/password-reset/${id}/${token}`
       );
       setValidUrl(true);
     } catch (error) {
