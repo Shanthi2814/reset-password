@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL="https://password-reset-9tmp.onrender.com/"
+axios.defaults.baseURL="https://reset-password-backend-ogrp.onrender.com/"
 root.render(
   <React.StrictMode>
     <App />
